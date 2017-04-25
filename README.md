@@ -1,6 +1,7 @@
 # npmtest-mysql-promise
 
-test coverage for  [mysql-promise (v4.1.0)](https://github.com/martinj/node-mysql-promise#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mysql-promise.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mysql-promise) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mysql-promise.svg)](https://travis-ci.org/npmtest/node-npmtest-mysql-promise)
+#### basic test coverage for  [mysql-promise (v4.1.0)](https://github.com/martinj/node-mysql-promise#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mysql-promise.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mysql-promise) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mysql-promise.svg)](https://travis-ci.org/npmtest/node-npmtest-mysql-promise)
+
 #### Small wrapper for mysql that use promises.
 
 [![NPM](https://nodei.co/npm/mysql-promise.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mysql-promise)
@@ -9,7 +10,7 @@ test coverage for  [mysql-promise (v4.1.0)](https://github.com/martinj/node-mysq
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-mysql-promise/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-mysql-promise/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mysql-promise/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mysql-promise/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mysql-promise/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mysql-promise/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-mysql-promise/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-mysql-promise/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mysql-promise/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mysql-promise/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-mysql-promise/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mysql-promise/build/coverage.html/index.html)
 
@@ -94,7 +95,8 @@ test coverage for  [mysql-promise (v4.1.0)](https://github.com/martinj/node-mysq
         "release:minor": "npm test && release-it -n -i minor",
         "test": "NODE_ENV=test npm run lint && istanbul cover -i 'index.js' _mocha -- -u exports -R spec 'test/**/*.test.js'"
     },
-    "version": "4.1.0"
+    "version": "4.1.0",
+    "bin": {}
 }
 ```
 
